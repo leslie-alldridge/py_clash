@@ -10,7 +10,7 @@ def sendSlack(file_name, url):
     payload={
         "filename": file_name, 
         "token": token, 
-        "channels":['#hi'], 
+        "channels":['#leslie-test-channel'], 
         "initial_comment": 'Lauren just replied on a thread: ' + url
     }
 
